@@ -1,0 +1,220 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #007BFF, #00C6FF);
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#hero .button {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#hero .button:hover {
+    background-color: #003f75;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wazi-img {
+    width: 20%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.project-img {
+    /* align-items: center;
+    width: 50%;
+    height: 200px;
+    object-fit: cover; */
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1.1rem;
+}
+
+.project-info .tech-stack {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+/* Resume Section */
+.resume h2 {
+
+    /* padding: 40px 20px;
+    text-align: center; */
+    margin-bottom: 15px;
+    /* Space between heading and button */
+    text-align: center;
+}
+
+
+
+.resume .button {
+    /* margin: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem; */
+
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.resume {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resume .button:hover {
+    background-color: blue;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
